@@ -4,7 +4,7 @@ $(function() {
     /* Fixed Header */
     let header = $("#header");
     let intro = $("#intro");
-    let introH;
+    introH = intro.innerHeight();
     let scrollPos = $(window).scrollTop();
     let nav = $("#nav");
     let navToggle = $("#navToggle");
