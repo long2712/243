@@ -11,7 +11,7 @@ $(function() {
 
     checkScroll(scrollPos, introH);
 
-    $(window).on("scroll load resize", function() {
+    $(window).on("scroll resize", function() {
         introH = intro.innerHeight();
         scrollPos = $(this).scrollTop();
 
